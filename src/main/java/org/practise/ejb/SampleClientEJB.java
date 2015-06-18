@@ -25,6 +25,7 @@ public class SampleClientEJB {
 				"com.sun.enterprise.naming.SerialInitContextFactory");
 		props.setProperty("org.omg.CORBA.ORBInitialHost", "localhost");
 
+		//port information could be found in GF admin console
 		props.setProperty("org.omg.CORBA.ORBInitialPort", "51037");
 
 		final InitialContext context = new InitialContext(props);
